@@ -6,7 +6,7 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
-<body> <!--  onLoad="authUser()" -->
+<body onLoad="authUser()">
   <!-- This initializes the Facebook JS SDK. -->
   <div id="fb-root"></div>
   
@@ -47,7 +47,7 @@
  <div id="deviceready"></div>
  
   <script type="text/javascript" src="jquery.js"></script>
-  <script type="text/javascript" src="cordova-2.2.0.js"></script>
+  <script type="text/javascript" src="cordova.js"></script>
   <script type="text/javascript" src="index.js"></script>
   
   <!-- cordova facebook plugin -->
@@ -61,9 +61,10 @@
   
   <script>
       // Initialize the Facebook SDK
-      console.log('### - Add listener for device ready - version 1.0.1');
+      console.log('### - Add listener for device ready - version 1.0.7');
 
       document.addEventListener('deviceready', function() {
+          console.log('### - FB.Init');
           FB.init({
               appId: '193911810758167',
               nativeInterface: CDV.FB,
