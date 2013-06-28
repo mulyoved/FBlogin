@@ -11,12 +11,12 @@ Todo:
 * Review and upgrade to latest version of phone gap
 * cleanup **done, working**
 	* delete bin 
-* why native dialog not working? - **native on phone**
+* why native dialog not working? - **working native on phone**
 * Pull to new project/folder, test
 * copy evnt files, delete other files in stages
 * **is it still working?**
 
 Links
 -----
-* Use: [FacebookConnect](https://github.com/phonegap-build/FacebookConnect
+* Use: [FacebookConnect](https://github.com/phonegap-build/FacebookConnect)
 * Based on: [phonegap-facebook-android](https://github.com/SuhasD/phonegap-facebook-android)
